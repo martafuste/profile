@@ -1,0 +1,65 @@
+
+  h1{
+    color: #455B73;
+    font-weight: bold
+    font-family: 'Comic Neue';
+  }
+  h2{
+    font-weight: bold;
+    color: #455B73 ;
+  }
+  body{
+  font-family: 'Lato', sans-serif;
+  background: url("images/friend.png") no-repeat fixed center;
+  background: -moz-linear-gradient(left, rgba(76,76,76,1) 0%, rgba(89,89,89,1) 12%, rgba(209,209,209,1) 19%, rgba(102,102,102,1) 22%, rgba(71,71,71,1) 39%, rgba(44,44,44,1) 39%, rgba(0,0,0,1) 51%, rgba(17,17,17,1) 60%, rgba(43,43,43,1) 76%, rgba(28,28,28,1) 91%, rgba(19,19,19,1) 100%);
+  color: #455B73;
+  font-weight: bolder;
+  }
+  a{
+   text-decoration: none;
+   font-family:'Lato', sans-serif;
+   color: #455B73;
+   font-weight: bolder;
+  }
+  a:hover {
+    color: yellow;
+  }
+
+.square-white {
+    background-color: rgba(230,230,230,0.8);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px #455B73;
+    width: 550px;
+    margin: 30px auto;
+    border-radius: 4px;
+
+  }
+.img-circle {
+    border-radius: 50%;
+    padding: 0;
+}
+
+.list-inline{
+  padding: 0;
+  list-style: none;
+}
+.btn-blue {
+    background-color: #455B73;
+    padding: 6px 30px 11px 30px;
+    color: white;
+    border-radius: 7px;
+    display: inline-block;
+    margin: 8px;
+    transition: 0.5s;
+}
+.btn-blue:hover {
+  color: rgb(203, 245, 227);
+  background-color: rgb(92, 99, 96)
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
