@@ -23,7 +23,7 @@
    font-weight: bolder;
   }
   a:hover {
-    color: yellow;
+    color: #E1049C;
   }
 
 .square-white {
@@ -72,7 +72,7 @@
     transition: 0.5s;
 }
 .btn-blue:hover {
-  color: rgb(203, 245, 227);
+  color: #E1049C
   background-color: rgb(92, 99, 96)
 }
 @media (max-width: 720px) {
