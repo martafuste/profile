@@ -15,6 +15,7 @@
   color: #455B73;
   font-weight: bolder;
   }
+
   a{
    text-decoration: none;
    font-family:'Lato', sans-serif;
@@ -36,7 +37,7 @@
 
   }
 .img-circle {
-    object-fit: fill;
+    object-fit: fit;
     width: 130px;
     height: 130px;
     border-radius: 50%;
