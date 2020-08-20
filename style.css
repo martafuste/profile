@@ -72,12 +72,24 @@
     transition: 0.5s;
 }
 .btn-blue:hover {
-  color: #E1049C
-  background-color: rgb(92, 99, 96)
+  color: rgb(210,210,210);
+  background-color: #e00488
+}
+@media(max0width: 900px){
+  .container{
+    width: 600px
+  }
 }
 @media (max-width: 720px) {
   /* For a screen < 720px, this CSS will be read */
   .container {
     width: 500px;
+  }
+}
+
+@media (max-width: 500px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 300px;
   }
 }
